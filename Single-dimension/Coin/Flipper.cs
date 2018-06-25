@@ -31,7 +31,7 @@
             // Display the results
             for (i = 0; i <= flips; i++)
             {
-                Console.Write(i);
+                Console.Write("{0, -4}", i);
                 for (j = 0; j < frequency[i]; j += 10)
                 {
                     Console.Write("*");
